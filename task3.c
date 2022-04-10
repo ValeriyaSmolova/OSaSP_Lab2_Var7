@@ -6,7 +6,7 @@ int main(int argc, char *argv[]) {
 
   if(argc != 2)
   {
-    fprintf(stderr, "Invalid parameters!\nThe_1st_parameter - the name of the file to which the result will be output.");
+    fprintf(stderr, "Invalid parameters!\nThe_1st_parameter - the name of the file to which the result will be output.\n");
     fprintf(stderr, "The format of the command should be: %s The_1st_parameter\n", argv[0]);
     return 1;
   }
